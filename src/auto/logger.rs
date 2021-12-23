@@ -4,7 +4,6 @@
 
 use crate::LoggerLogLevel;
 use crate::Message;
-use crate::Session;
 #[cfg(any(feature = "v2_24", feature = "dox"))]
 #[cfg_attr(feature = "dox", doc(cfg(feature = "v2_24")))]
 use crate::SessionFeature;
