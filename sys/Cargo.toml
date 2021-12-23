@@ -1,0 +1,133 @@
+[build-dependencies]
+system-deps = "5"
+
+[dependencies]
+bitflags = "1.0"
+gio-sys = "0.14"
+glib-sys = "0.14"
+gobject-sys = "0.14"
+libc = "0.2"
+
+[dev-dependencies]
+shell-words = "1.0.0"
+tempfile = "3"
+
+[features]
+dox = []
+v2_24 = []
+v2_26 = ["v2_24"]
+v2_26_3 = ["v2_26"]
+v2_28 = ["v2_26_3"]
+v2_30 = ["v2_28"]
+v2_32 = ["v2_30"]
+v2_34 = ["v2_32"]
+v2_36 = ["v2_34"]
+v2_38 = ["v2_36"]
+v2_40 = ["v2_38"]
+v2_42 = ["v2_40"]
+v2_44 = ["v2_42"]
+v2_46 = ["v2_44"]
+v2_48 = ["v2_46"]
+v2_50 = ["v2_48"]
+v2_52 = ["v2_50"]
+v2_54 = ["v2_52"]
+v2_56 = ["v2_54"]
+v2_58 = ["v2_56"]
+v2_60 = ["v2_58"]
+v2_62 = ["v2_60"]
+v2_66 = ["v2_62"]
+v2_68 = ["v2_66"]
+v2_70 = ["v2_68"]
+v2_72 = ["v2_70"]
+
+[lib]
+name = "soup_sys"
+
+[package]
+build = "build.rs"
+description = "Soup FFI crate for Rust"
+license = "MIT"
+links = "soup"
+name = "soup2-sys"
+version = "0.14.0"
+edition = "2018"
+[package.metadata.docs.rs]
+features = ["dox"]
+[package.metadata.system-deps.libsoup_2_4]
+name = "libsoup-2.4"
+version = "0.0"
+
+[package.metadata.system-deps.libsoup_2_4.v2_24]
+version = "2.24"
+
+[package.metadata.system-deps.libsoup_2_4.v2_26]
+version = "2.26"
+
+[package.metadata.system-deps.libsoup_2_4.v2_26_3]
+version = "2.26.3"
+
+[package.metadata.system-deps.libsoup_2_4.v2_28]
+version = "2.28"
+
+[package.metadata.system-deps.libsoup_2_4.v2_30]
+version = "2.30"
+
+[package.metadata.system-deps.libsoup_2_4.v2_32]
+version = "2.32"
+
+[package.metadata.system-deps.libsoup_2_4.v2_34]
+version = "2.34"
+
+[package.metadata.system-deps.libsoup_2_4.v2_36]
+version = "2.36"
+
+[package.metadata.system-deps.libsoup_2_4.v2_38]
+version = "2.38"
+
+[package.metadata.system-deps.libsoup_2_4.v2_40]
+version = "2.40"
+
+[package.metadata.system-deps.libsoup_2_4.v2_42]
+version = "2.42"
+
+[package.metadata.system-deps.libsoup_2_4.v2_44]
+version = "2.44"
+
+[package.metadata.system-deps.libsoup_2_4.v2_46]
+version = "2.46"
+
+[package.metadata.system-deps.libsoup_2_4.v2_48]
+version = "2.48"
+
+[package.metadata.system-deps.libsoup_2_4.v2_50]
+version = "2.50"
+
+[package.metadata.system-deps.libsoup_2_4.v2_52]
+version = "2.52"
+
+[package.metadata.system-deps.libsoup_2_4.v2_54]
+version = "2.54"
+
+[package.metadata.system-deps.libsoup_2_4.v2_56]
+version = "2.56"
+
+[package.metadata.system-deps.libsoup_2_4.v2_58]
+version = "2.58"
+
+[package.metadata.system-deps.libsoup_2_4.v2_60]
+version = "2.60"
+
+[package.metadata.system-deps.libsoup_2_4.v2_62]
+version = "2.62"
+
+[package.metadata.system-deps.libsoup_2_4.v2_66]
+version = "2.66"
+
+[package.metadata.system-deps.libsoup_2_4.v2_68]
+version = "2.68"
+
+[package.metadata.system-deps.libsoup_2_4.v2_70]
+version = "2.70"
+
+[package.metadata.system-deps.libsoup_2_4.v2_72]
+version = "2.72"

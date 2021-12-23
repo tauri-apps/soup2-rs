@@ -1,0 +1,17 @@
+[options]
+work_mode = "sys"
+library = "Soup"
+version = "2.4"
+target_path = "."
+girs_directories = ["../../gir-files/"]
+external_libraries = [
+   "GLib",
+   "GObject",
+   "Gio",
+]
+
+ignore = [
+  "Soup.MICRO_VERSION",
+  "Soup.MINOR_VERSION",
+  "Soup.VERSION_MIN_REQUIRED",
+]
