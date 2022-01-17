@@ -4,7 +4,7 @@ description = "Soup FFI crate for Rust"
 license = "MIT"
 links = "soup"
 name = "soup2-sys"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 [package.metadata.docs.rs]
 features = ["dox"]
@@ -20,9 +20,9 @@ system-deps = "5"
 
 [dependencies]
 bitflags = "1.0"
-gio-sys = "0.14"
-glib-sys = "0.14"
-gobject-sys = "0.14"
+gio-sys = "0.15"
+glib-sys = "0.15"
+gobject-sys = "0.15"
 libc = "0.2"
 
 [dev-dependencies]

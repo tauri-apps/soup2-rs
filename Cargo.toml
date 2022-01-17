@@ -5,20 +5,20 @@ name = "soup"
 description = "Soup2 crate for Rust"
 license = "MIT"
 name = "soup2"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 
 [dependencies]
 libc = "0.2"
 bitflags = "1.2"
 once_cell = "1.9"
-glib = "0.14"
-gio = "0.14"
+glib = "0.15"
+gio = "0.15"
 
 [dependencies.ffi]
 package = "soup2-sys"
 path = "sys"
-version = "^0.1"
+version = "^0.2"
 
 [features]
 default = ["v2_70"]
