@@ -21,7 +21,7 @@ path = "sys"
 version = "^0.2"
 
 [features]
-default = ["v2_70"]
+default = ["v2_62"]
 dox = []
 v2_24 = []
 v2_26 = ["v2_24", "ffi/v2_26"]

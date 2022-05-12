@@ -50,10 +50,18 @@ pub use self::cookie_jar_db::{CookieJarDB, NONE_COOKIE_JAR_DB};
 mod cookie_jar_text;
 pub use self::cookie_jar_text::{CookieJarText, NONE_COOKIE_JAR_TEXT};
 
+#[cfg(any(feature = "v2_68", feature = "dox"))]
+#[cfg_attr(feature = "dox", doc(cfg(feature = "v2_68")))]
 mod hsts_enforcer;
+#[cfg(any(feature = "v2_68", feature = "dox"))]
+#[cfg_attr(feature = "dox", doc(cfg(feature = "v2_68")))]
 pub use self::hsts_enforcer::{HSTSEnforcer, NONE_HSTS_ENFORCER};
 
+#[cfg(any(feature = "v2_68", feature = "dox"))]
+#[cfg_attr(feature = "dox", doc(cfg(feature = "v2_68")))]
 mod hsts_enforcer_db;
+#[cfg(any(feature = "v2_68", feature = "dox"))]
+#[cfg_attr(feature = "dox", doc(cfg(feature = "v2_68")))]
 pub use self::hsts_enforcer_db::{HSTSEnforcerDB, NONE_HSTS_ENFORCER_DB};
 
 mod logger;
@@ -416,7 +424,11 @@ pub mod traits {
     pub use super::cookie_jar::CookieJarExt;
     pub use super::cookie_jar_db::CookieJarDBExt;
     pub use super::cookie_jar_text::CookieJarTextExt;
+    #[cfg(any(feature = "v2_68", feature = "dox"))]
+    #[cfg_attr(feature = "dox", doc(cfg(feature = "v2_68")))]
     pub use super::hsts_enforcer::HSTSEnforcerExt;
+    #[cfg(any(feature = "v2_68", feature = "dox"))]
+    #[cfg_attr(feature = "dox", doc(cfg(feature = "v2_68")))]
     pub use super::hsts_enforcer_db::HSTSEnforcerDBExt;
     pub use super::logger::LoggerExt;
     pub use super::message::MessageExt;
