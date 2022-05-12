@@ -5,7 +5,7 @@ name = "soup"
 description = "Soup2 crate for Rust"
 license = "MIT"
 name = "soup2"
-version = "0.3.0"
+version = "0.2.1"
 edition = "2021"
 
 [dependencies]
